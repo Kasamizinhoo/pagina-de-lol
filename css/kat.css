@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#comeco {
+    width: 1000px; /* Defina a largura desejada para a sua imagem */
+    margin: 0 auto; /* Centraliza a div horizontalmente */
+    padding: 10px; /* Adiciona um espaço interno de 10px para a imagem */
+    margin-top: -10px;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#comeco img {
+    width: 100%; /* Garante que a imagem se ajuste à largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.background-image1 {
+    background-image: url(../imgs/38e73c58-52d2-4b17-b299-0bca675f6486.jpg);
+    background-size: cover;
+    height: 3000px;
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza horizontalmente o texto */
+}
+.info {
+    color: #f1f1f1;
+}
+.info h2 {
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.info h1 {
+    font-size: 72px;
+    margin-top: -20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.info p {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+span {
+    color: #f1f1f1;
+    margin: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+p {
+    color: #ffffff;
+    margin-left: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.titulo {
+    color: #ffffff;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.skins {
+    color: #ffffff;
+    text-align: center;
+    font-size: 72px;
+    padding: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.col-md-2 ul {
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.col-md-2 li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #f1f1f1;
+    font-size: 15px;
+}
+
+.col-md-2 li a:hover {
+    text-decoration: none; /* Remove o sublinhado ao passar o mouse */
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katarina - League of Legends</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="../imgs/league-of-legends-logo-13AAC5B212-seeklogo.com.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/kat.css">
+</head>
+<body>
+    <!-- barra de navegacao-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../imgs/league-of-legends-logo-13AAC5B212-seeklogo.com.png" alt="..." height="36">
+             League Of Legends
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Campeões
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Katarina</a></li>
+                  <li><a class="dropdown-item" href="#">Akali</a></li>
+                  <li><a class="dropdown-item" href="#">Aurelion Sol</a></li>
+                  <li><a class="dropdown-item" href="#">Jinx</a></li>
+                  <li><a class="dropdown-item" href="#">Yasuo</a></li>
+                  <li><a class="dropdown-item" href="#">Yone</a></li>
+                  <li><a class="dropdown-item" href="#">Kayn</a></li>
+                  <li><a class="dropdown-item" href="#">Sett</a></li>
+                  <li><a class="dropdown-item" href="#">Viego</a></li>
+                  <li><a class="dropdown-item" href="#">Irelia</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Seção com imagem de fundo usando Bootstrap -->
+      <div class="background-image1">
+      <div id="comeco">
+        <div class="image-container">
+            <video id="video-title" autoplay muted loop width="1100" height="550">
+                <source src="../videos/kat.mp4" type="video/mp4">
+            </video>
+            <div class="info">
+                <h2>A LÂMINA SINISTRA</h2>
+                <h1>KATARINA</h1>
+                <p><strong>FUNÇÃO:</strong> ASSASSINO</p>
+                <p><strong>DIFICULDADE:</strong> ALTA</p>
+                <p>Decisiva em seus julgamentos e letal em combate, Katarina é a assassina de maior calibre de Noxus. Filha mais velha do lendário General Du Couteau, Katarina é reconhecida por seus assassinatos eficientes contra inimigos desavisados. Sua ambição ardente a levou a buscar alvos extremamente protegidos, mesmo correndo o risco de colocar seus aliados em perigo; mas não importa a missão, Katarina não hesita ao executar seu dever no meio de um furacão de adagas serrilhadas.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="titulo">Habilidades</h1>
+        <div class="row">
+            <!-- Coluna da esquerda para explicar as habilidades -->
+            
+            <div class="col-md-6">
+                <div>
+                    <img src="https://ddragon.leagueoflegends.com/cdn/13.18.1/img/passive/Katarina_Passive.png" alt="Habilidade 1" onclick="trocarVideo('https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0055/ability_0055_P1.webm')"> <span>Passiva - Voracidade</span>
+                    <p>Os Tempos de Recarga de Katarina são reduzidos drasticamente sempre que um Campeão que ela havia causado dano recentemente morrer. Se apanhar uma Adaga, Katarina a usa para cortar todos os inimigos próximos, causando Dano Mágico.</p>
+                </div>
+                <div>
+                    <img src="https://ddragon.leagueoflegends.com/cdn/13.18.1/img/spell/KatarinaQ.png" alt="Habilidade 2" onclick="trocarVideo('https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0055/ability_0055_Q1.webm')"><span>Q - LÂMINA SALTITANTE</span>
+                    <p>Katarina arremessa uma Adaga no alvo. Ela salta em inimigos próximos antes de ricochetear e cair no chão.</p>
+                </div>
+                <div>
+                    <img src="https://ddragon.leagueoflegends.com/cdn/13.18.1/img/spell/KatarinaW.png" alt="Habilidade 3" onclick="trocarVideo('https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0055/ability_0055_W1.webm')"><span>W - PREPARAÇÃO</span>
+                    <p>Katarina recebe um impulso de Velocidade de Movimento e joga uma Adaga para cima.</p>
+                </div>
+                <div>
+                    <img src="https://ddragon.leagueoflegends.com/cdn/13.18.1/img/spell/KatarinaEWrapper.png" alt="Habilidade 3" onclick="trocarVideo('https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0055/ability_0055_E1.webm')"><span>E - SHUNPO</span>
+                    <p>Katarina desloca-se em direção ao alvo, golpeando-o caso seja inimigo ou golpeando o inimigo mais próximo caso não seja.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://ddragon.leagueoflegends.com/cdn/13.18.1/img/spell/KatarinaR.png" alt="Habilidade 3" onclick="trocarVideo('https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0055/ability_0055_R1.webm')"><span>R - LÓTUS DA MORTE</span>
+                    <p>Katarina gira em torno de si mesma, disparando adagas muito rapidamente e causando muito Dano Mágico nos 3 Campeões inimigos mais próximos.
+
+                    </p>
+                </div>
+            </div>
+            <!-- Coluna da direita para exibir vídeos -->
+            <div class="col-md-6">
+                <div id="video-container">
+                    <!-- Aqui você pode iniciar com um vídeo padrão -->
+                    <iframe id="video" width="100%" height="515" src="https://www.youtube.com/embed/video_padrao?autoplay=1&mute=1&controls=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>   
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Coluna da esquerda para a lista de skins -->
+            <h1 class="skins">Skins</h1>
+            <div class="col-md-2">
+                <ul class="list-unstyled">
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin1')">Katarina Mercenária</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin2')">Katarina Árbitra</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin3')">Katarina Águas de sentina</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin4')">Katarina Gatinha</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin5')">Katarina Comandante</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin6')">Katarina Tempestade de Areia</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin7')">Katarina Noite Infeliz</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin9')">Projeto: Katarina</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin10')">Katarina Jurada de Morte</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin11')">Katarina Academia de Batalha</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin12')">Katarina Lua Sangrenta</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin13')">Katarina Rainha de Batalha(MelhorSkin)</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin14')">Katarina Velho Oeste</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin15')">Katarina Corte das Fadas</a></li>
+                    <li><a href="javascript:void(0);" onclick="trocarFundo('skin16')">Katarina Corte das Fadas de Prestigio</a></li>
+                </ul>
+            </div>
+            <!-- Coluna da direita para exibir a imagem de fundo -->
+            <div class="col-md-10">
+                <div class="background-image">
+                    <!-- Aqui você pode iniciar com uma imagem padrão -->
+                    <img src="../imgs/katskins/Katarina_0.jpg" alt="Imagem de Fundo" width="1000" height="600">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="../js/kathabilidades.js"></script>
+</body>
