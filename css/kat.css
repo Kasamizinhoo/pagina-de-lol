@@ -3,9 +3,8 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 #comeco {
-    width: 1000px; /* Defina a largura desejada para a sua imagem */
+    width: 1100px; /* Defina a largura desejada para a sua imagem */
     margin: 0 auto; /* Centraliza a div horizontalmente */
-    padding: 10px; /* Adiciona um espaço interno de 10px para a imagem */
     margin-top: -10px;
     display: flex;
     align-items: center; /* Centraliza verticalmente */
@@ -19,7 +18,7 @@ body {
 .background-image1 {
     background-image: url(../imgs/38e73c58-52d2-4b17-b299-0bca675f6486.jpg);
     background-size: cover;
-    height: 3000px;
+    height: 3300px;
 }
 .image-container {
     display: flex;
@@ -84,4 +83,11 @@ p {
 
 .col-md-2 li a:hover {
     text-decoration: none; /* Remove o sublinhado ao passar o mouse */
+}
+
+.plays {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
